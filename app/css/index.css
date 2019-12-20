@@ -1,0 +1,55 @@
+.colorBox {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+}
+.barWrap {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.barB {
+	width: 202px;
+	height: 22px;
+	position: relative;
+	margin-left: 23px;
+}
+.bar {
+	width: 200px;
+	height: 16px;
+	border: 1px solid #eee;
+	position: absolute;
+	top: -1px;
+	left: 0;
+}
+.bar b{
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 10px;
+	height: 22px;
+	border: 1px solid #2e2e2e;
+	background-color: #eee;
+}
+
+.colorbtn{
+	position: absolute;
+	width:16px;
+	height:16px;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 16px;
+	text-decoration: none;
+}
+.colorbtn.disabled{
+	background-color: #333;
+	color:white;
+}
+.minus_btn{
+	left: -20px;
+	top: 0;
+}
+.add_btn{
+	right: -25px;
+	top: 0;
+}
